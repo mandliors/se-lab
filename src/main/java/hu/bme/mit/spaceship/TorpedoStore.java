@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // the fire method will use it for simulating random overheating of the launcher bay which prevents firing
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
